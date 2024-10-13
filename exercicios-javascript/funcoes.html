@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <script src="./java/js/funcoes.js"></script>
+    <link rel="stylesheet" href="./css/style.css"></link>
+</head>
+<body>
+    <h1>Calculadora de Divisão</h1>
+    
+    <label for="num1">Digite o primeiro número:</label><br>
+    <input type="number" id="num1" placeholder="Primeiro número"><br>
+
+    <label for="num2">Digite o segundo número:</label><br>
+    <input type="number" id="num2" placeholder="Segundo número"><br>
+
+    <button onclick="calcularDivisao()">Calcular Divisão</button>
+    
+    <h1>Ordenar Lista de Strings</h1>
+    
+    <label for="strings">Digite uma lista de palavras separadas por vírgula:</label><br>
+    <input type="text" id="strings" placeholder="Ex: morango, maçã, abacaxi, laranja"><br>
+
+    <button onclick="ordenarLista()">Ordenar Lista</button>
+    
+    <h1>Encontrar o Maior Número no Array</h1>
+    
+    <label for="numeros">Digite uma lista de números separados por vírgula:</label><br>
+    <input type="text" id="numeros" placeholder="Ex: 10, 3, 7, 25, 8"><br>
+
+    <button onclick="encontrarMaior()">Encontrar Maior Número</button>
+    
+    <div id="container">
+        <h2>Inverter String</h2>
+        <input type="text" id="inputString" placeholder="Digite uma string">
+        <br>
+        <button onclick="inverterString()">Inverter</button>
+        <p id="resultado"></p>
+        
+    <div class="result" id="resultado"></div>
+</body>
+</html>
